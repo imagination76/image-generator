@@ -40,7 +40,7 @@ function generateRandomImage(width = 500, height = 500, fileName = 'random.png')
 }
 
 function getRandomColor() {
-    return `rgb(${Math.random() * 255}, ${Math.random() * 255}, ${Math.random() * 255})`; 
+    return `rgb(${Math.random() * 255}, ${Math.random() * 255}, ${Math.random() * 255})`;
 }
 
 // Generate the image
