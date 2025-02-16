@@ -5,6 +5,10 @@ function generateRandomImage(width = 500, height = 500, fileName = 'random.png')
     const canvas = createCanvas(width, height);
     const ctx = canvas.getContext('2d');
 
+
+
+
+    
     // Fill with a random background color
     ctx.fillStyle = getRandomColor();
     ctx.fillRect(0, 0, width, height);
