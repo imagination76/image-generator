@@ -9,12 +9,6 @@ function generateRandomImage(width = 500, height = 500, fileName = 'random.png')
     ctx.fillStyle = getRandomColor();
     ctx.fillRect(0, 0, width, height);
 
-
-
-
-
-
-    
     // Draw random circles
     for (let i = 0; i < 10; i++) {
         ctx.beginPath();
